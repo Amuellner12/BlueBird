@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalPage">
+
+    <TextView
+        android:id="@+id/triceptext"
+        android:layout_width="284dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Skull Crusher, close grip bench, Rope Pushdown"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/biceptext"
+        android:layout_width="245dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="4dp"
+        android:text="Cable rope curls, Hammer Curls, Spider Curls"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/backtext"
+        android:layout_width="256dp"
+        android:layout_height="78dp"
+        android:text="Lat Pulldowns, Cable Pull Overs, T Bar rows"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="401dp" />
+
+
+    <TextView
+        android:id="@+id/chesttext"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="204dp"
+        android:text="Bench Press, Incline Dumbbell Press, Decline Barbell Press"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView17"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <Button
+        android:id="@+id/tricep_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tricep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/triceptext"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <Button
+        android:id="@+id/bicep_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bicep"
+        app:layout_constraintEnd_toStartOf="@+id/biceptext"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backtext"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:id="@+id/chest_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chest"
+        app:layout_constraintEnd_toStartOf="@+id/chesttext"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="586dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

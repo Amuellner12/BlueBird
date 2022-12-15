@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BlueBird</string>
+    <string-array name="lot_dropdown">
+        <item>Triceps</item>
+        <item>Biceps</item>
+        <item>Chest</item>
+        <item>Back</item>
+    </string-array>
+</resources>
